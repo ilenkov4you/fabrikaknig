@@ -90,10 +90,9 @@ section.block { padding: 84px 0 0; }
 .books span { display: block; background: var(--cream); padding: 12px 16px; border-left: 8px solid var(--blue); }
 .times { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .times li { display: grid; grid-template-columns: 96px 1fr; align-items: stretch; background: #FBF5E6; }
-.times a, .times b { background: var(--black); color: var(--cream); font: 500 18px/1 "Oswald"; letter-spacing: .06em; padding: 14px 0; text-align: center; text-decoration: none; }
+.times a { background: var(--black); color: var(--cream); font: 500 18px/1 "Oswald"; letter-spacing: .06em; padding: 14px 0; text-align: center; text-decoration: none; }
 .times li span { padding: 12px 18px; }
-.times b { display: flex; align-items: center; justify-content: center; }
-@media (max-width: 560px) { .times li { grid-template-columns: 76px 1fr; } .times a, .times b { font-size: 16px; } }
+@media (max-width: 560px) { .times li { grid-template-columns: 76px 1fr; } .times a { font-size: 16px; } }
 .cols { display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px; align-items: start; }
 @media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
 .ph { background: #F3E3A0; padding: 0 4px; }
@@ -104,5 +103,5 @@ footer { margin-top: 90px; display: grid; grid-template-columns: 1fr 3fr; font: 
 footer .k { background: var(--black); padding: 26px 24px; font-family: "Rubik Mono One"; letter-spacing: .1em; }
 footer .r { background: var(--red); padding: 26px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 @media (max-width: 560px) { footer { grid-template-columns: 1fr; } }
-.embed { display: block; width: 100%; height: 270px; border: 0; background: #fff; }
-@media (max-width: 560px) { .embed { height: 330px; } }
+.player audio { display: block; width: 100%; margin-top: 14px; }
+.times a:hover { background: var(--blue); }
