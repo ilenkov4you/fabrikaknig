@@ -107,3 +107,12 @@ footer .r { background: var(--red); padding: 26px 24px; display: flex; flex-wrap
 .times a:hover { background: var(--blue); }
 .eph > div { min-width: 0; }
 .player audio { max-width: 100%; }
+.tr summary { display: inline-block; cursor: pointer; background: var(--black); color: var(--cream); font: 500 17px/1 "Oswald"; text-transform: uppercase; letter-spacing: .06em; padding: 14px 18px; border-left: 10px solid var(--red); }
+.tr summary:hover { background: var(--blue); }
+.tr[open] summary { margin-bottom: 22px; }
+.trtext { max-width: 760px; }
+.trtext h3 { font: 700 26px/1.1 "Oswald"; text-transform: uppercase; margin: 30px 0 14px; }
+.trtext p { margin: 0 0 14px; }
+.trtext a { color: var(--red); font: 500 15px/1 "Oswald"; letter-spacing: .05em; text-decoration: none; white-space: nowrap; }
+.trtext a:hover { text-decoration: underline; }
+.trtext .q { color: #7A7060; }
