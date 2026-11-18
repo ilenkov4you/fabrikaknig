@@ -105,3 +105,5 @@ footer .r { background: var(--red); padding: 26px 24px; display: flex; flex-wrap
 @media (max-width: 560px) { footer { grid-template-columns: 1fr; } }
 .player audio { display: block; width: 100%; margin-top: 14px; }
 .times a:hover { background: var(--blue); }
+.eph > div { min-width: 0; }
+.player audio { max-width: 100%; }
