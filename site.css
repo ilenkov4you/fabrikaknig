@@ -88,6 +88,12 @@ section.block { padding: 84px 0 0; }
 @media (max-width: 860px) { .eph { grid-template-columns: 1fr; gap: 36px; padding-top: 32px; } .eph img { box-shadow: 10px 10px 0 var(--red); } }
 .books { display: grid; gap: 10px; }
 .books span { display: block; background: var(--cream); padding: 12px 16px; border-left: 8px solid var(--blue); }
+/* Правая колонка «О выпуске»: книги (красная полоса, как без ссылок) и под ними «Ссылки» гостя и ведущего */
+.side { display: grid; gap: 26px; align-content: start; }
+.side .card:first-child { border-top-color: var(--red); }
+.side .card + .card { border-top-color: var(--black); }
+.links .os { margin: 22px 0 10px; font-weight: 500; letter-spacing: .04em; }
+.links h3 + .os { margin-top: 0; }
 .times { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .times li { display: grid; grid-template-columns: 96px 1fr; align-items: stretch; background: #FBF5E6; }
 .times a { background: var(--black); color: var(--cream); font: 500 18px/1 "Oswald"; letter-spacing: .06em; padding: 14px 0; text-align: center; text-decoration: none; }
